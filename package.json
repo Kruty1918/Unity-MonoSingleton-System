@@ -1,0 +1,19 @@
+{
+  "name": "com.simplegamestudio29.monosingleton",
+  "version": "1.0",
+  "description": "MonoSingleton is a centralized system for Unity that automates the work with instances. It makes development easier, improves code readability, and allows you to focus on the core aspects of game development. MonoSingleton also prevents errors by managing instances on stage.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Kruty1918/Unity-MonoSingleton-System.git"
+  },
+  "author": "Oleksiy Gavrylyuk (https://github.com/Kruty1918)",
+  "keywords": [
+    "sgs29",
+    "git",
+    "sm",
+    "mono"
+  ],
+  "displayName": "MonoSingleton",
+  "unity": "2020.1",
+  "type": "tool"
+}
