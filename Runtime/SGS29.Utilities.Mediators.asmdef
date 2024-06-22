@@ -1,0 +1,14 @@
+{
+    "name": "SGS29.Utilities.Mediators",
+    "rootNamespace": "SGS29.Utilities.Mediators",
+    "references": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
