@@ -59,6 +59,23 @@ It is recommended to first call the base method **base.Awake();** and then perfo
 
 The **DontDestroyOnLoad()** method can be easily integrated into this system to prevent the object from being destroyed when loading a new scene. If a singleton object exists in the newly loaded scene that matches the one from the previous scene, the new object will be destroyed, and the old singleton object will remain. A message will be logged to notify you that a duplicate singleton was detected and removed.
 
+## Error Logging
+
+**MonoSingleton** includes built-in error logging to notify you if something goes wrong or if you forget any necessary steps. This ensures smooth operation and helps in debugging issues related to singleton instances.
+
+# Installation
+
+- Clone or download the repository or the latest release from GitHub.
+- Import **MonoSingleton** scripts into your **Unity project**.
+- Inherit your scripts from **MonoSingleton<T>** to make them singletons.
+
+## Usage
+
+- Create a script and inherit it from **MonoSingleton<T>**.
+- Access the singleton instance using **SM.Instance<T>()**.
+
+**By following these steps, you can easily manage singleton instances in your Unity project, making development more streamlined and efficient.**
+
 ____________________________________________________
 
-*Feel free to contribute to the project by submitting issues or pull requests on the GitHub repository. For any questions or support, contact the maintainers.*
+*Feel free to contribute to the project by submitting issues or pull requests on the GitHub repository. For any questions or **support**, contact the maintainers.*
